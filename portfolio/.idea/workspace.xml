@@ -11,27 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="421c599a-5772-41e1-83f9-1c2e18864a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioDatabase/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +75,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601351925104</updated>
-      <workItem from="1601351928138" duration="8449000" />
+      <workItem from="1601351928138" duration="8631000" />
+      <workItem from="1601396252763" duration="100000" />
     </task>
     <servers />
   </component>
@@ -111,6 +93,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601352389432">
