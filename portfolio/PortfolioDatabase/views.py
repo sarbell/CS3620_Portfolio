@@ -6,18 +6,40 @@ from .models import Hobbies, Portfolio
 # Create your views here.
 
 def home(request):
-    return HttpResponse('<h1>Welcome to Sarah Bell\'s Portfolio Site! </h1> <p>I am a student at Weber State University studying Web Devleopment. I also have an internship with Larry H Miller in web development. I am an avid runner, a lover of great food, and love to learn new things.</p>')
+    return render(request, 'portfolioApp/home.html')
 
 
 def hobbies(request):
     hobby_list = Hobbies.objects.all()
-    return HttpResponse(hobby_list)
+    context = {
+        'hobby_list':hobby_list,
+    }
+    return render(request, 'portfolioApp/hobbies.html', context)
 
 
 def portfolio(request):
     portfolio_list = Portfolio.objects.all()
-    return HttpResponse(portfolio_list)
+    context = {
+        'portfolio_list':portfolio_list,
+    }
+    return render(request, 'portfolioApp/portfolio.html', context)
 
 
 def contact(request):
-    return HttpResponse('<p>Contact Me: <strong>sarahbell@mail.weber.edu</strong></p>')
+    return render(request, 'portfolioApp/contact.html')
+
+
+def details(request, hobby_id):
+    hobby = Hobbies.objects.get(pk=hobby_id)
+    context = {
+        'hobby': hobby
+    }
+    return render(request, 'portfolioApp/details.html', context)
+
+
+def portfolio_details(request, portfolio_id):
+    portfolio_item = Portfolio.objects.get(pk=portfolio_id)
+    context = {
+        'portfolio_item': portfolio_item
+    }
+    return render(request, 'portfolioApp/portfolio_details.html', context)

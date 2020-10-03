@@ -1,0 +1,18 @@
+{% extends 'portfolioApp/base.html' %}
+
+{% block body %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="display-4">{{ hobby.hobby_name }}</h1>
+        </div>
+        <div class="col-6">
+            <img src="{{ hobby.hobby_image }}" class="card img-fluid" height="300px" alt="">
+        </div>
+        <div class="col-6 my-auto">
+            <h3>{{ hobby.hobby_description }}</h3>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

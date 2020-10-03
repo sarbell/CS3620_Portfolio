@@ -1,0 +1,38 @@
+{% extends 'portfolioApp/base.html' %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+{% block body %}
+<div class="container-fluid stars">
+    <div class="container py-5 ">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-3 text-center text-white">Welcome to Sarah Bell's Portfolio Site! </h1>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-12">
+                <h2 class="text-light pb-5">I am an avid runner, a connoisseur of great food, and a lover of learning.</h2>
+                <p class="text-light pb-5">Currently, I am a student at Weber State University studying Web Development, majoring in Web and User Experience, while minoring in Computer Science. I intern at Larry H. Miller Sports and Entertainment Group doing web development and QA testing.</p>
+            </div>
+            <div class="col-12 text-center">
+                <a class="" href="{% url 'portfolioApp:contact'%}"><button class="main_button">Let's work together!
+                </button></a>
+
+            </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
+
+</body>
+</html>
+

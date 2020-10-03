@@ -1,0 +1,21 @@
+{% extends 'portfolioApp/base.html' %}
+{% block body %}
+<div class="container py-5">
+     <div class="row">
+         <div class="col-12">
+             <h2 class="display-4">Portfolio</h2>
+         </div>
+         {% for portfolio_item in portfolio_list %}
+        <div class="col-4 py-2">
+            <div class="card h-100" style="width: 18rem;">
+              <img src="{{ portfolio_item.portfolio_image }}" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                <h4 class="card-title">{{portfolio_item.portfolio_name}}</h4>
+                <a href="{% url 'portfolioApp:portfolio_details' portfolio_item.id %}" class="btn btn-outline-info">See Details</a>
+                </div>
+            </div>
+        </div>
+         {% endfor %}
+    </div>
+</div>
+{% endblock %}

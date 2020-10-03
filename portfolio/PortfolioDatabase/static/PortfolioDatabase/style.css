@@ -1,0 +1,30 @@
+.stars{
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.4)), url("https://source.unsplash.com/zepnJQycr4U")center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.main_button{
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.1));
+    border:none;
+    padding: .8rem;
+    margin-left:1rem;
+    margin-right:1rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.main_button:hover{
+    background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.5));
+}
+
+.hobbies{
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.1)), url("https://source.unsplash.com/i5MW_nrHi1k")center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.hobbyText{
+    color: black !important;
+}
+
