@@ -12,8 +12,6 @@ class Hobbies(models.Model):
 
 
 
-
-
 class Portfolio(models.Model):
 
     portfolio_name = models.CharField(max_length=200)
@@ -24,3 +22,11 @@ class Portfolio(models.Model):
         return self.portfolio_name+': ' +self.portfolio_description
 
 
+
+class Contact(models.Model):
+    def __str__(self):
+        return self.name
+
+    name = models.CharField(max_length=200)
+    email = models.EmailField(max_length=200)
+    message = models.CharField(max_length=600)

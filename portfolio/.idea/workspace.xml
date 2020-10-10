@@ -11,19 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="421c599a-5772-41e1-83f9-1c2e18864a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/static/PortfolioDatabase/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/hobbies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/portfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/portfolio_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/CS3620_Portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/delete_item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/portfolio-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioDatabase/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PortfolioDatabase/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioDatabase/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/static/PortfolioDatabase/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioDatabase/static/PortfolioDatabase/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/hobbies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/portfolio_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioDatabase/templates/portfolioApp/portfolio_details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PortfolioDatabase/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioDatabase/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PortfolioDatabase/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PortfolioDatabase/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +59,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -90,7 +99,10 @@
       <updated>1601351925104</updated>
       <workItem from="1601351928138" duration="8631000" />
       <workItem from="1601396252763" duration="296000" />
-      <workItem from="1601611303387" duration="21388000" />
+      <workItem from="1601611303387" duration="21530000" />
+      <workItem from="1601700086165" duration="25000" />
+      <workItem from="1601700132068" duration="36000" />
+      <workItem from="1602354234099" duration="14576000" />
     </task>
     <servers />
   </component>
@@ -118,21 +130,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="455" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1601613925226" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1601666507935">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602366505119">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1601666507935" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1601666507933">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1602366505119" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1601698684191">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1601666507933" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1601666507928">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1601698684191" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1601698684188">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1601666507928" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1601666507934">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1601698684188" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1601698684185">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1601666507934" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1601698684185" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1601698684189">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1601698684189" />
   </component>
 </project>

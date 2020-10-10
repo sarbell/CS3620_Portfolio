@@ -4,14 +4,22 @@
 <div class="container py-5">
     <div class="row">
         <div class="col-12">
+            {% if user.is_authenticated %}
+                <h1 class="display-4">{{ portfolio_item.portfolio_name }}
+                    <a class="btn btn-outline-warning" href="{% url 'portfolioApp:edit_item' portfolio_item.id %}">Edit</a>
+                    <a class="btn btn-outline-danger" href="{% url 'portfolioApp:delete_item' portfolio_item.id %}">Delete</a>
+                </h1>
+            {% else %}
             <h1 class="display-4">{{ portfolio_item.portfolio_name }}</h1>
+            {% endif %}
         </div>
         <div class="col-6">
-            <img src="{{ portfolio_item.portfolio_image }}" class="card img-fluid" height="300px" alt="">
+            <img src="{{ portfolio_item.portfolio_image }}" class="card img-fluid shadow" height="300px" alt="">
         </div>
         <div class="col-6 my-auto">
-            <h3>{{ portfolio_item.portfolio_description }}</h3>
+            <h4>{{ portfolio_item.portfolio_description }}</h4>
         </div>
+
     </div>
 </div>
 

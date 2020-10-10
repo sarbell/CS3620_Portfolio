@@ -1,0 +1,12 @@
+{% extends 'portfolioApp/base.html' %}
+
+{% block body %}
+<div class="container py-5">
+    <h3 class="display-4 py-3">Add a Portfolio </h3>
+   <form method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <button class="btn btn-outline-success " type="submit">Update</button>
+</form>
+</div>
+{% endblock %}

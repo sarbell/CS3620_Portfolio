@@ -1,3 +1,6 @@
+body{
+    font-family: 'Heebo', sans-serif;
+}
 .stars{
     background-repeat: no-repeat;
     background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.4)), url("https://source.unsplash.com/zepnJQycr4U")center/cover;
@@ -27,4 +30,15 @@
 .hobbyText{
     color: black !important;
 }
+
+.detailContainer:hover{
+    background-color: rgba(23,162,184, .8) !important;
+    cursor: pointer;
+}
+.details:hover{
+    text-decoration: none;
+}
+
+
+
 

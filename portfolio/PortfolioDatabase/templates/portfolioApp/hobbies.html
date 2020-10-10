@@ -7,11 +7,11 @@
                  <h2 class="display-4">Hobbies</h2>
              </div>
              {% for hobby in hobby_list %}
-            <div class="col-4 py-2">
+            <div class="col-lg-4 col-md-6 col-sm-12 py-5">
                   <img src="{{ hobby.hobby_image }}" class="img-fluid h-75 shadow" style="width: 20rem;">
                     <div class="shadow" style="width: 20rem;">
                         <h3 class="bg-white text-dark py-3 text-center" style="width: 20rem;">{{hobby.hobby_name}}</h3>
-                        <a href="{% url 'portfolioApp:details' hobby.id %}" class="btn btn-outline-info btn-block"><span class="hobbyText">See Details</span></a>
+                        <a href="{% url 'portfolioApp:details' hobby.id %}" class="btn btn-outline-info btn-block text-capitalize"><span class="hobbyText">See Details</span></a>
                     </div>
             </div>
              {% endfor %}

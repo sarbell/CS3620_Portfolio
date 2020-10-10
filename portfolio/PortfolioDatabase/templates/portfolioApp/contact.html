@@ -3,12 +3,17 @@
 <div class="container py-5">
     <div class="row py-5">
         <div class="col">
-            <h3 class="display-4">Hi, I'd love to work together! </h3>
+            <h3 class="display-4 ">Hi, I'd love to work together! </h3>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <h5 class="text-left"><strong>Drop me a note: </strong><a class="text-info">sarahbell@mail.weber.edu </a></h5>
+            <h5 class="text-left py-5"><strong>Drop me a note: </strong></h5>
+            <form method="POST">
+                {% csrf_token %}
+                {{ form }}
+                <button class="btn btn-outline-info" type="submit">Send Message!</button>
+            </form>
         </div>
     </div>
 </div>
